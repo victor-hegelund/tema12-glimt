@@ -33,10 +33,24 @@ img {
   width: 100%;
 }
 
+.minfuld {
+  min-height: 100vh;
+}
+
+/* Baggrundsfarver */
+
 .bg-lilla {
   background-color: var(--lilla);
 }
 
 .bg-lillarød {
   background-color: var(--lillarød);
+}
+
+.bg-mørkelilla {
+  background-color: var(--mørkelilla);
+}
+
+.bg-lilla * {
+  color: var(--lyselilla);
 }
