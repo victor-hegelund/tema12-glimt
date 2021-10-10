@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/bed6coi.css");
+
+:root {
+  --lilla: #782099;
+  --lyselilla: #e3acf4;
+  --mørkelilla: #231127;
+
+  --lillarød: #b91585;
+  --blå: #1a32b8;
+
+  --displayfont: adage-script-jf, sans-serif;
+  --tekstfont: adobe-caslon-pro, serif;
+}
+
+* {
+  color: var(--mørkelilla);
+  font-family: var(--tekstfont);
+}
+
+h1,
+h2 {
+  font-family: var(--displayfont);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h4 {
+  color: var(--lilla);
+}
+
+img {
+  width: 100%;
+}
+
+.bg-lilla {
+  background-color: var(--lilla);
+}
+
+.bg-lillarød {
+  background-color: var(--lillarød);
+}
