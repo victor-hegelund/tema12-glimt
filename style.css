@@ -37,6 +37,11 @@ img {
   min-height: 100vh;
 }
 
+.video-square {
+  width: 100%;
+  transition: all 0.6s;
+}
+
 /* Baggrundsfarver */
 
 .bg-lilla {
@@ -52,5 +57,50 @@ img {
 }
 
 .bg-lilla * {
-  color: var(--lyselilla);
+  color: #fff;
+}
+
+.bg-lilla tr,
+.bg-lilla tbody {
+  border-color: var(--lyselilla) !important;
+}
+
+.full-video {
+  width: 100%;
+  margin-bottom: -6px;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.video-bg {
+  height: 100%;
+  padding: 0 !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.video-bg-appelsin {
+  background-image: url(/img/appelsin-drink-raw.jpg);
+}
+
+.video-bg-baer {
+  background-image: url(/img/baer-drink-raw.jpg);
+}
+
+.video-bg-lime {
+  background-image: url(/img/lime-drink-raw.jpg);
+}
+
+.top-img {
+  max-width: 250px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.arrow-down {
+  height: 100px;
+  width: 100px;
 }
